@@ -3,6 +3,22 @@
 # Get the input from user and print the result. 
 import random
 
+game_console = '''
+ _____________________________   
+/        _____________        \  
+| == .  |             |     o |  
+|   _   |             |    B  |  
+|  / \  |             | A   O |  
+| | O | |             |  O    |  
+|  \_/  |             |       |  
+|       |             | . . . |  
+|  :::  |             | . . . |  
+|  :::  |_____________| . . . |  
+|           S N K             |  
+\_____________________________/
+
+'''
+print(game_console)
 user_choice = input("Enter your move (Rock, Scissor, Paper): ")
 computer_choice = random.choice(["Rock", "Scissor", "Paper"])
 
